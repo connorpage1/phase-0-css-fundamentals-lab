@@ -1,5 +1,40 @@
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: aqua;
+}
 body {
+  text-align: center;
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+#featured-property p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+figcaption {
+  
+  color:blueviolet;
+}
+
+#details {
+  overflow: hidden; /* Clear floats */
+}
+
+#details div {
+  float: left; /* Float each div to the left */
+  width: 25%; /* Each div occupies 25% of the width */
+}
+
+/* Styling for the bottom row */
+footer {
+  background-color: #ff0000; /* Set background color */
+  text-align: center; /* Center text */
+}
+
+footer div {
+  display: inline-block; /* Display divs inline */
 }
